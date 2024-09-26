@@ -14,6 +14,7 @@ let orange_orchard_cost = 100000;
 let orange_orchard_cost_decrease = 0.65;
 // extra variables
 let h3 = document.getElementsByClassName("scorenum");
+
 let building_cost = [
   "cursor-cost",
   "tree-cost",
