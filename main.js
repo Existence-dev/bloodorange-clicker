@@ -135,11 +135,6 @@ if (buildings !== null && Array.isArray(buildings)) {
   }
 }
 
-function opensavemenu() {
-  const diag = document.getElementById("savemenu");
-  diag.showModal();
-}
-
 async function scoreupdate() {
   score++;
   if (buildings[0] > 0) {
@@ -309,6 +304,11 @@ function purchase(building) {
       $(".orange-cost").text("Cost: " + orange_cost);
     }
   }
+}
+
+function opensavemenu() {
+  const diag = document.getElementById("savemenu");
+  diag.showModal();
 }
 
 async function updatecounter() {
